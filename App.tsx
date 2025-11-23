@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ParkingCalendar } from './components/ParkingCalendar';
 import { ParkingForm } from './components/ParkingForm';
-import { Toaster } from 'sonner@2.0.3';
+import { Toaster } from 'sonner';
 
 export interface ParkingApplication {
   id: string;
